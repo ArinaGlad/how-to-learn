@@ -15,17 +15,18 @@
   max-height: 756px;
   position: relative;
   display: flex;
+  background-color:  #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
 .logo {
-  position: absolute;
   width: 228px;
   height: 32px;
   z-index: 3;
 }
 
 .logo_place_header {
+  position: absolute;
   top: 30px;
   left: 64px;
   background-image: url('../images/logo_place_header.svg');
@@ -35,7 +36,6 @@
   background-image: url('../images/logo_place_footer.svg');
   width: 228px;
   height: 32px;
-  position: static;
 }
 
 .header__title {
@@ -51,7 +51,8 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -184,14 +185,13 @@
   margin: 0 0 20px 0;
 }
 
-.table__cell span {
-  line-height: 1.2;
-  font-size: 18px;
+.table__text:nth-of-type(2) {
+  margin: 0;
 }
 
 .feynman {
   position: relative;
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   background-image: url('../images/feynman.png');
   background-position: left 0 bottom 0;
@@ -212,6 +212,7 @@
 .feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
+  font-weight: normal;
   text-align: center;
   margin: 70px auto 0 auto;
 }
@@ -222,7 +223,6 @@
   font-size: 36px;
   color: #2f80ed;
   top: 50%;
-  transform: translateY(-50%);
   right: 48px;
   text-decoration: none;
 }
@@ -235,11 +235,15 @@
 }
 
 .section-title_theme_dark {
+  position: relative;
   color: white;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
+  position: relative;
   color: white;
+  z-index: 2;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -256,6 +260,10 @@
 
 .kaufman__triangle {
   position: absolute;
+  background-image: url('../images/kaufman-triangle.svg');
+  background-size: 877px 877px;
+  background-position: center center;
+  background-repeat: no-repeat;
   width: 877px;
   height: 877px;
   top: 0;
