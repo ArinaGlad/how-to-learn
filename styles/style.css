@@ -187,6 +187,30 @@ a:hover {
   text-align: center;
 }
 
+.video {
+  padding-top: 100px;
+}
+
+.video__ifames {
+  margin: 0 auto;
+  padding-top: 50px;
+  max-width: 1050px;
+  font-size: 0;
+}
+
+.video__iframe:first-child {
+  margin-right: 20px;
+}
+
+.oakley {
+  /* position: relative; */
+  margin-top: -40px;
+  /* transform: translateY(-50px); */
+  padding-top: 160px;
+  background-color:  #f2f2f2;
+  /* z-index: -1; */
+}
+
 .digits {
   padding: 100px 0;
 }
