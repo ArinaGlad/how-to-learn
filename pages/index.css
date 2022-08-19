@@ -65,3 +65,4 @@
 @import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/page/page.css);
+@import url(../styles/normalize.css);
