@@ -12,6 +12,10 @@
     align-items: center;
 }
 
+.footer__column-link:last-child {
+    margin-bottom: 16px;
+}
+
 .footer__column-link a:hover {
     opacity: 0.5;
     transition: 0.5s ease all;
