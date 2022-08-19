@@ -1,7 +1,7 @@
 .footer__column-link {
     list-style-type: none;
 }
-  
+
 .footer__column-link a {
     line-height: 30px;
     font-size: 18px;
@@ -10,4 +10,9 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+}
+
+.footer__column-link a:hover {
+    opacity: 0.5;
+    transition: 0.5s ease all;
 }
