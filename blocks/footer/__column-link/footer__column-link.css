@@ -1,8 +1,4 @@
 .footer__column-link {
-    list-style-type: none;
-}
-
-.footer__column-link a {
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
@@ -12,11 +8,7 @@
     align-items: center;
 }
 
-.footer__column-link:last-child {
-    margin-bottom: 16px;
-}
-
-.footer__column-link a:hover {
+.footer__column-link:hover {
     opacity: 0.5;
     transition: 0.5s ease all;
 }
