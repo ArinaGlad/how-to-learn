@@ -1,4 +1,4 @@
-# HOW-TO-LEARN
+# HOW-TO-LEARN https://arinaglad.github.io/how-to-learn/
 **********************************
 
 ## О проекте:
